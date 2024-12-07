@@ -1,0 +1,43 @@
+/* Navbar */
+.side-navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none; /* Removes the bullet points */
+}
+.side-navbar img {
+  width: 220px;      
+  height: auto;     
+  object-fit: cover;
+  border-radius: 5px;
+}
+.logo {
+  width: 100%;  /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the entire image is visible */
+}
+.side-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  list-style-type: none; /* Remove bullet points */
+}
+
+.side-navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  display: block; /* Ensure each link takes up a full line */
+}
+
+.side-navbar a:hover {
+  background-color: #575757; /* Highlight on hover */
+  border-radius: 5px;
+}
